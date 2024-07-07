@@ -1,8 +1,10 @@
 #include "mbed.h"
 #include "arm_book_lib.h"
+
+
 #define LED_1 PB_12
-#define LED_1 PB_13
-#define LED_1 PB_14
+#define LED_2 PB_13
+#define LED_3 PB_14
 
 
 #define BOTON1 PA_8
@@ -11,13 +13,21 @@
 
 int main()
 {
-    DigitalIn gasDetector(D2);
+    DigitalIn tecla_1(BOTON1);
+    DigitalIn tecla_2(BOTON2);
+    DigitalIn tecla_3(BOTON3);
 
-    DigitalOut alarmLed(LED1);
+    DigitalOut ledArm(LED_1);
+    DigitalOut ledReady(LED_2);
+    DigitalOut ledSistem(LED_3);
 
-    gasDetector.mode(PullDown);
+    tecla_1.mode(PullDown);
+    tecla_2.mode(PullDown);
+    tecla_3.mode(PullDown);
 
-    alarmLed = OFF;
+    ledArm = OFF;
+    ledReady = OFF;
+    ledSistem = OFF;
 
     while (true) {
         if ( gasDetector == ON ) {
