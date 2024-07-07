@@ -3,6 +3,7 @@
 #include "mbed.h"
 #include "arm_book_lib.h"
 
+//=====[Defines]===============================================================
 
 #define LED_1 PB_12
 #define LED_2 PB_13
