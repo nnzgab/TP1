@@ -19,7 +19,7 @@ int main()
 
     DigitalOut ledArm(LED_1);
     DigitalOut ledReady(LED_2);
-    DigitalOut ledSistem(LED_3);
+    DigitalOut ledSystem(LED_3);
 
     tecla_1.mode(PullDown);
     tecla_2.mode(PullDown);
@@ -27,15 +27,28 @@ int main()
 
     ledArm = OFF;
     ledReady = OFF;
-    ledSistem = OFF;
+    ledSystem = OFF;
 
     while (true) {
-        if ( gasDetector == ON ) {
-            alarmLed = ON;
+        if ( tecla_1 == ON ) {
+            ledArm = ON;
+        }
+        else {
+            ledArm = OFF;
         }
         
-        if ( gasDetector == OFF ) {
-            alarmLed = OFF;
+        if ( tecla_2 == ON ) {
+            ledReady = ON;
+        }
+        else {
+            ledReady = OFF;
+        }
+
+        if ( tecla_3 == ON ) {
+            ledSystem = ON;
+        }
+        else {
+            ledSystem = OFF;
         }
     }
 }
