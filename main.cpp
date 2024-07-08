@@ -3,6 +3,18 @@
 #include "mbed.h"
 #include "arm_book_lib.h"
 
+//PA_2    serial2 TX
+//PA_3    serial2 RX
+
+//PB_12    led1
+//PB_13    led2
+//PB_14    led3
+
+//PA_8    btn1
+//PA_9    btn2
+//PA_10   btn3
+
+
 //=====[Defines]===============================================================
 
 #define LED_1 PB_12
@@ -47,9 +59,10 @@ int main()
     outputsInit();
 
     bool estadoTest = OFF;
-    
+    int timeout = 0;
 
     while (true) {
+        estadoTest = ON;
         botonCopiaLed();
         //uartTask();
     }
