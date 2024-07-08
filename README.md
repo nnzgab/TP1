@@ -35,7 +35,7 @@ texto5
 > 4. lista4
 
 
-'print('hola mundo')'
+'print("hola mundo")'
 
 ~~~
 for(){
