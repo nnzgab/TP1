@@ -33,3 +33,14 @@ texto5
 > 2. lista2
 > 3. lista3
 > 4. lista4
+
+
+'print('hola mundo')'
+
+~~~
+for(){
+
+}
+~~~
++++~~~~~
+
