@@ -26,5 +26,5 @@ texto5
 
 
 * Listas
-- Listas
+ - Listas
 + Listas
