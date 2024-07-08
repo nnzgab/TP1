@@ -46,6 +46,9 @@ int main()
     inputsInit();
     outputsInit();
 
+    bool estadoTest = OFF;
+    
+
     while (true) {
         botonCopiaLed();
         //uartTask();
