@@ -28,3 +28,8 @@ texto5
 * Listas
   - Listas
       + Listas
+
+1. lista1
+2. lista2
+3. lista3
+4. lista4
