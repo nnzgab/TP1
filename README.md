@@ -8,6 +8,8 @@
 
 *El teclado led de alarma cuenta de salidas digitales que controlan leds indicadores de Zonas, de estado de sistema, de iluminación de Teclas, entradas de analógicas de Zona y de sensor de batería, entradas digitales para ingreso de teclas, salida digital para indicador auditivo, puerto de comunicación UART.*
 
+*El objetivo proncipal es desarrollar un programa que permita testear el hardware de un teclado led de alarma.*
+
 
 
 # Titulo1
