@@ -42,6 +42,8 @@ for(){
 
 }
 ~~~
-~print("hola mundo")~
+`print("hola mundo")`
+
+`print()`
 ~~~print("hola mundo")~~~
 
