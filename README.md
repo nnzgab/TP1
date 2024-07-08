@@ -1,7 +1,14 @@
 # TP1
 Trabajo_Practico_N1
+
 **Trabajo_Practico_N1**
+
 __Trabajo_Practico_N1__
+
+*Trabajo_Practico_N1*
+
+_Trabajo_Practico_N1_
+
 ## Nuñez Gabriel Eduardo
 nombre
 
