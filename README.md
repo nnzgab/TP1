@@ -3,18 +3,11 @@
 ***
 
 # TP1
-Trabajo_Practico_N1
 
-**Trabajo_Practico_N1**
+**Test de teclado de Alarma**
 
-__Trabajo_Practico_N1__
+*El teclado led de alarma cuenta de salidas digitales que controlan leds indicadores de Zonas, de estado de sistema, de iluminación de Teclas, entradas de analógicas de Zona y de sensor de batería, entradas digitales para ingreso de teclas, salida digital para indicador auditivo, puerto de comunicación UART.*
 
-*Trabajo_Practico_N1*
-
-_Trabajo_Practico_N1_
-
-## Nuñez Gabriel Eduardo
-nombre
 
 
 # Titulo1
