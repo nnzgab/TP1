@@ -26,6 +26,9 @@
 #define BOTON2 PA_9
 #define BOTON3 PA_10
 
+#define UART_TX PA_2
+#define UART_TX PA_23
+
 //=====[Declaration and initialization of public global objects]===============
 DigitalIn tecla_1(BOTON1);
 DigitalIn tecla_2(BOTON2);
@@ -35,7 +38,7 @@ DigitalOut ledArm(LED_1);
 DigitalOut ledReady(LED_2);
 DigitalOut ledSystem(LED_3);
 
-//UnbufferedSerial uartUsb(USBTX, USBRX, 115200);
+UnbufferedSerial uartUsb(UARTTX, UARTRX, 115200);
 
 //=====[Declaration and initialization of public global variables]=============
 
@@ -113,9 +116,9 @@ void botonCopiaLed(){
 
 void uartTask()
 {
-    char receivedChar = '\0';
-    if( uartUsb.readable() ) {
-        uartUsb.read( &receivedChar, 1 );
+    char receivedChar = '\0'; //declaramos un char inicializada con el caracter nulo
+    if( uartUsb.readable() ) { //preguntaos si hay algo para leer
+        uartUsb.read( &receivedChar, 1 ); //engorroso por que tengo que decir cuantos bytes quiero leer
         if ( receivedChar == '1') {
             if ( alarmState ) {
                 uartUsb.write( "The alarm is activated\r\n", 24);
