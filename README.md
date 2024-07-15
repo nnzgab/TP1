@@ -13,13 +13,22 @@
 
 ## Hardware a testear en esta entrega:
 * Leds de sistema.
-* * LedArm
-* * LedReady
-* * LedSystem 
-* Leds de teclas.
+  * LedArm.
+  * LedReady.
+  * LedSystem. 
+
 * Entrada de teclas.
+  * Tecla 1.
+  * Tecla 2.
+  * Tecla 3.
+    
 * Salida de audio por buzzer.
+
+* Entrada analogica (medicion voltaje potenciometro).
+  
 * Puerto de comunicacion Uart
+
+  
 texto2
 ### Titulo
 texto3
