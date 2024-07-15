@@ -32,50 +32,19 @@ Email: nunezgabrieleduardo@gmail.com
 * Puerto de comunicacion Uart.
   * La utilizacion de este puerto nos ifdica que esta operativo.
 
-## Procedimiento:
-El programa arranca encendiendo secuencialmente los leds Arm, Ready y System una y otra ves.
-El el monitor serie se va indicando como seguir el test.
-Se arranca el test pulsando tecla 1 + tecla 2.
-Luego se va probanto el ingreso secuencial de cada tecla 1, 2 y 3.
-Luego se pruba de forma secuencial los leds seguido el buzzer y por ultimo se hace una medicion ADC.
-Se avanza en la secuencia pulsando la tecla 1.
-Se indica por el terminal tanto el inicio como el final del test.
-Existe un timeout que de superarlo termina el testeo.
-Los 3 led encendiendo de forma secuencial indica que aun no empezó el test.
-Los 3 led intermitentes indican que el test finalizo.
-
-texto2
-### Titulo
-texto3
-#### Titulo4
-texto4
-##### Titulo5
-texto5
-
+> ## Procedimiento:
+> El programa arranca encendiendo secuencialmente los leds Arm, Ready y System una y otra ves.
+> El el monitor serie se va indicando como seguir el test.
+> Se arranca el test pulsando tecla 1 + tecla 2.
+> Luego se va probanto el ingreso secuencial de cada tecla 1, 2 y 3.
+> Luego se pruba de forma secuencial los leds seguido el buzzer y por ultimo se hace una medicion ADC.
+> Se avanza en la secuencia pulsando la tecla 1.
+> Se indica por el terminal tanto el inicio como el final del test.
+> Existe un timeout que de superarlo termina el testeo.
+> Los 3 led encendiendo de forma secuencial indica que aun no empezó el test.
+> Los 3 led intermitentes indican que el test finalizo.
 ***
-* Listas
-  - Listas
-      + Listas
----
-> 1. lista1
-> 2. lista2
-> 3. lista3
-> 4. lista4
 
 
-´print("hola mundo")´
 
-~~~
-for(){
-
-}
-~~~
-`print("hola mundo")`
-
-`print()`
-[TP1](https://github.com/nnzgab/TP1)
-
-![imagen](https://lh3.googleusercontent.com/a/ACg8ocLsXugjsqkz0WqtghgT4etIENpRHDV8LCzSOq-Xk7UNLLirChp9=s288-c-no)
-
-![Mi_Perfil](https://media-eze1-1.cdn.whatsapp.net/v/t61.24694-24/262329071_303452795139327_6428126580712263286_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_Q5AaIL6T7benzWaVISsb4tozqbVMf-dP1HfCBnLkw2YIo9RW&oe=6697D1CA&_nc_sid=e6ed6c&_nc_cat=104)
 
