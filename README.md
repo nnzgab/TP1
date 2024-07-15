@@ -43,6 +43,12 @@ Email: nunezgabrieleduardo@gmail.com
 > Existe un timeout que de superarlo termina el testeo.
 > Los 3 led encendiendo de forma secuencial indica que aun no empezó el test.
 > Los 3 led intermitentes indican que el test finalizo.
+
+### Conexionado:
+![esquemaConexion](https://github.com/nnzgab/TP1/blob/main/conexion.PNG)
+
+### Salida monitor Serial:
+![SalidaMonitorSerial](https://github.com/nnzgab/TP1/blob/main/salida%20monitor%20serie.PNG)
 ***
 
 
