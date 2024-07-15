@@ -11,9 +11,11 @@
 *El objetivo proncipal es desarrollar un programa que permita testear el hardware de un teclado led de alarma.*
 
 
-## Hardware a testear:
-* Leds de zonas.
+## Hardware a testear en esta entrega:
 * Leds de sistema.
+* * LedArm
+* * LedReady
+* * LedSystem 
 * Leds de teclas.
 * Entrada de teclas.
 * Salida de audio por buzzer.
