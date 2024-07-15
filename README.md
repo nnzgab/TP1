@@ -1,12 +1,8 @@
 ***
 # NUñEZ Gabriel Eduardo  
 Email: nunezgabrieleduardo@gmail.com
-***
-***
 
-# TP1
-
-**Test de teclado de Alarma**
+# TP1 #**Test de teclado de Alarma**
 
 *El teclado led de alarma cuenta de salidas digitales que controlan leds indicadores de Zonas, de estado de sistema, de iluminación de Teclas, entradas de analógicas de Zona y de sensor de batería, entradas digitales para ingreso de teclas, salida digital para indicador auditivo, puerto de comunicación UART.*
 
