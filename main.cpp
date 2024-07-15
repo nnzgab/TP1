@@ -1,6 +1,6 @@
-/* arranca secuencia de led uno tras otro si pulsa t1 y t2 
-arranca el testel test probando las teclas los leds el buzzer
-y el adc termina el test y apaga todo y pone fin al test*/
+/* 
+Enviar para revision
+*/
 
 //=====[Libraries]=============================================================
 
